@@ -27,7 +27,7 @@ set -g @monokai-plugins "cpu-usage gpu-usage ram-usage"
 For each plugin is possible to customize background and foreground colors
 
 ```bash
-# available colors: white, gray, black, cyan, blue, green, magenta, red, yellow
+# available colors: white, gray, dark_gray, black, cyan, blue, green, magenta, red, yellow
 # set -g @monokai-[plugin-name]-colors "[background] [foreground]"
 set -g @monokai-cpu-usage-colors "red black"
 ```

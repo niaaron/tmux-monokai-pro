@@ -1,6 +1,6 @@
 # Monokai Pro for tmux
 
-A customized version of the [Dracula theme](https://github.com/dracula/tmux) for [tmux](https://github.com/tmux/tmux/wiki), using colors from [Monokai Pro](https://monokai.pro/).
+A customized version of the [Dracula theme](https://github.com/dracula/tmux) for [tmux](https://github.com/tmux/tmux/wiki), using colors from [Monokai Pro](https://monokai.pro/). This is meant for my own personal use.
 
 ![Screenshot](./screenshot.png)
 
@@ -9,7 +9,7 @@ A customized version of the [Dracula theme](https://github.com/dracula/tmux) for
 Using [tpm](https://github.com/tmux-plugins/tpm), add the following to your `.tmux.conf`:
 
 ```
-set -g @plugin 'maxpetretta/tmux-monokai-pro'
+set -g @plugin 'niaaron/tmux-monokai-pro'
 ```
 
 ## Configuration
@@ -20,7 +20,7 @@ Configuration and options can be found at [draculatheme.com/tmux](https://dracul
 
 ## Compatibility
 
-Tested on macOS Monterey, with & without powerline symbols
+Tested on macOS Monterey and Fedora 37 with & without powerline symbols
 
 ## License
 
@@ -28,6 +28,6 @@ Tested on macOS Monterey, with & without powerline symbols
 
 ## Credits
 
-All credit goes to [dracula/tmux](https://github.com/dracula/tmux), which this theme was forked from
+All credit goes to [dracula/tmux](https://github.com/dracula/tmux) and [maxpetretta/tmux-monokai-pro](https://github.com/maxpetretta/tmux-monokai-pro), which this theme was forked from
 
 Special thanks to [Monokai](https://monokai.nl/) for creating the One True Color Theme <3
